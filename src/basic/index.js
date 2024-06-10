@@ -18,5 +18,6 @@ class BasicExpression {
         });
         return string;
     }
-
 }
+
+module.exports = {BasicExpression}
