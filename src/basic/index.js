@@ -1,4 +1,9 @@
 /**
+ * The registered basic expressions
+ */
+const expressions = []
+
+/**
  * A Basic Expression that is contained trough the UzuScript Framework.
  * Used to replace "shortened" expressions like log.
  */
@@ -20,4 +25,4 @@ class BasicExpression {
     }
 }
 
-module.exports = {BasicExpression}
+module.exports = {BasicExpression, expressions}
