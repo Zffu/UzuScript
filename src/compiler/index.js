@@ -1,6 +1,11 @@
 const expressions = require("../basic/index").expressions;
 
-function performBasicExpressions(content) {
+/**
+ * Compiles the basic expression in the provided file content.
+ * @param {*} content the provided file content
+ * @returns the compiled file content.
+ */
+function compileBasicExpressions(content) {
     console.log("[INFO] Compiling Basic Expressions...")
 
     expressions.forEach(expression => {
