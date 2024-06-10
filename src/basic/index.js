@@ -1,7 +1,9 @@
+const {logExpression, warnExpression, errorExpression} = require("./logging")
+
 /**
  * The registered basic expressions
  */
-const expressions = []
+const expressions = [logExpression, warnExpression, errorExpression]
 
 /**
  * A Basic Expression that is contained trough the UzuScript Framework.
