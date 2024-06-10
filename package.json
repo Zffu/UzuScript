@@ -1,0 +1,13 @@
+{
+    "name": "uzuscript",
+    "version": "1.0.0",
+    "description": "A custom superset of the NodeJS Language. Will ultimately allow for faster coding",
+    "keywords": ["uzuscript", "compiler", "language", "javascript", "nodejs", "superset", "faster"],
+    "homepage": "https://zffu.is-a.dev",
+    "bugs": {
+        "url": "https://github.com/Zffu/UzuScript/issues",
+        "email": "zffumc@gmail.com"
+    },
+    "license": "MIT",
+    "author": "Zffu"
+}
