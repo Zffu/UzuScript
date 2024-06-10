@@ -9,5 +9,8 @@
         "email": "zffumc@gmail.com"
     },
     "license": "MIT",
-    "author": "Zffu"
+    "author": "Zffu",
+    "bin": {
+        "uzuscript": "src/bin/index.js"
+    }
 }
