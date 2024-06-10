@@ -1,5 +1,5 @@
 const fs = require("node:fs")
-const expressions = require("../basic/index").expressions;
+const {expressions} = require("../basic/index");
 
 /**
  * Compiles the basic expression in the provided file content.
